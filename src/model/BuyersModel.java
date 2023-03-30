@@ -9,7 +9,7 @@ public class BuyersModel {
     private String fnameBuyers;
 
     public BuyersModel() {
-        fnameBuyers = "./db/buyers.csv";
+        fnameBuyers = "C:\\Users\\bitko\\IdeaProjects\\ToyStore\\src\\db\\buyers.txt";
     }
 
     public void add(Buyer rec) {

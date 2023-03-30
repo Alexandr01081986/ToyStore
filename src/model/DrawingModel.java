@@ -13,8 +13,8 @@ public class DrawingModel {
     private Drawing drw;
 
     public DrawingModel() {
-        fnamePrizesToAward = "./db/prizestoaward.csv";
-        fnamePrizesAwarded = "./db/prizesawarded.csv";
+        fnamePrizesToAward = "C:\\Users\\bitko\\IdeaProjects\\ToyStore\\src\\db\\prizestoaward.txt";
+        fnamePrizesAwarded = "C:\\Users\\bitko\\IdeaProjects\\ToyStore\\src\\db\\prizesawarded.txt";
         drw = new Drawing();
         formatter = DateTimeFormatter.ofPattern(
                 "dd.MM.yyyy HH:mm");
