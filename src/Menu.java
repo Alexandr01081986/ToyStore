@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Menu {
     private String prevPos;
-    // меню
+
     private String choice;
     private String newPos;
     private boolean ShowNewChoice;

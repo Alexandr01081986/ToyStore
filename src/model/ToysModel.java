@@ -9,7 +9,7 @@ public class ToysModel {
     private String fnameToys;
 
     public ToysModel() {
-        fnameToys = "./db/toys.csv";
+        fnameToys = "C:\\Users\\bitko\\IdeaProjects\\ToyStore\\src\\db\\toys.txt";
     }
 
     public void add(Toy rec) {
